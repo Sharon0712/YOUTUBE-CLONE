@@ -1,0 +1,123 @@
+.search{
+    
+    width: 0;
+    flex:1;
+    cursor: pointer;
+    height:35px;
+    border: solid;
+    border-color: rgb(39, 35, 35);
+    background-color: rgb(22, 20, 20);
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+    
+}
+.search::placeholder{
+   position: absolute;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+.header{
+    background-color: rgb(16, 16, 16);
+    width:1486px;
+    height: 65px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+z-index: 1;
+}
+.left-section{
+  display: flex;
+    width: 140px;
+    align-items: center;
+}
+.menu{
+    height: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.youtube{
+    height: 40px;
+    margin-right: 35px;
+}
+
+.middle-section{
+       flex:1;
+    padding-left:40px;
+    padding-right: 12px;
+    max-width:500px ; 
+    display: flex;
+    align-items:center ;
+   
+}
+.search-button{
+    width: 45px;
+    height: 35px;
+        border-width:0px;
+        border-style: solid;
+        
+    border-color: rgb(255, 255, 255) ;
+   
+    margin-left: -47px;
+        height:35px;
+        padding-right:0;
+        margin-right: 25px;
+        border-radius: 25px;
+
+       
+}
+
+        
+    
+.voice-button{
+    width: 40px;
+    height: 40px;
+      border-radius: 20px; 
+      background: none;
+      border-width: 0px;
+      
+}
+.voice-icon{
+    height:40px;
+    width: 50px;
+    border-radius: 70px;
+    
+}
+.right-section{
+width:230px;
+display: flex;
+align-items:center ;
+justify-content:space-between;
+flex-shrink: 0;
+}
+.create-button{
+    height:48px;
+    width:111spx;
+    border-radius: 30px;
+}
+.notification{
+    height:28px;
+    width:29px;
+    border-radius:25px;
+    background-color: black;
+}
+.count{
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    top: 10px;
+    right: 53px;
+}
+.profile-img{
+    width:35px;
+    border-radius: 60px;
+    
+}
+
+

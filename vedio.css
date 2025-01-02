@@ -1,0 +1,69 @@
+
+ .vedio-preview{
+    width: 400px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    padding-top: 65px;
+     display:inline-block;  
+    position:relative;
+}
+.image{
+    border-radius: 15px;
+    width:100%;
+    margin-bottom: 12px;
+    margin-top: 8px;
+   
+} 
+.vedio-time{
+    font-family: arial;
+        background-color: #000008;
+        color:white;
+        position: absolute;
+        bottom:174px;
+        right:12px;
+        padding-left: 4px;
+        padding-right:4px ;
+        padding-top:4px ;
+        padding-bottom:4px ;
+        font-weight: 500;
+        border-radius:5px ;
+    }
+.verified-icon{
+    width:12px;
+    height: 12px;
+    
+}
+.vedio-title{
+    margin-top: 0;
+    font-family: 'roboto',Arial;
+    width:350px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight:bold;
+    vertical-align: top;
+    display: inline-block;
+}
+.vedio-info-grid{
+   display: grid; 
+   grid-template-columns:1fr 1fr 1fr ;
+   height:150px;
+   column-gap: 20px;
+   row-gap: 30px;
+
+}
+
+.profile{
+    width:25px;
+    border-radius: 60px;
+    
+}
+.auther,
+.views{
+    color:rgb(125, 117, 117);
+    font-family: Arial;
+    margin-top: 8px;
+    
+}
+
+            

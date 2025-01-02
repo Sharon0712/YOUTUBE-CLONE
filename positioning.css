@@ -1,0 +1,51 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10000px;
+    width:240px;
+    top:65px;
+    background-color: rgb(17, 16, 16);
+    z-index: 100;
+    
+}
+
+.sidebar-link:hover{
+    background-color: rgb(85, 82, 82);
+}
+.sidebar-link img{
+width: 250px;
+height: 56px;
+margin-left: -10px;
+}
+ 
+.img-button{
+    border:none;
+    background:none;
+    padding-right: 10PX;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.img-button1{
+    border:none;
+    background:none;
+    padding-right: 10PX;
+    margin-top: -6px;
+    margin-bottom: 0;
+
+}
+.side-link{
+width:223px;
+}
+.you-head{
+    margin-bottom: 1px;
+    margin-top:12px ;
+}
+.you-info{
+    margin-bottom: 1px;
+    margin-top:-8px ;
+   
+  
+  
+}
